@@ -8,11 +8,11 @@ Everything here is released under [CC0 1.0](License.txt) — public domain, no a
 
 | | Project | Description |
 |---|---|---|
-| <img src="packout-inserts/images/wide-bin-corner-ul-lr.png" width="140"> | [**Packout Inserts**](packout-inserts/) | Inserts that subdivide the bins of a Milwaukee Packout tray organizer |
-| | [Alpha Blocks](alpha-blocks/) | A set of 1 inch alphabet letter blocks |
-| | [IKEA Trofast LEGO Bins](trofast-lego-bins/) | Bins and dividers to organize LEGO in IKEA Trofast storage boxes |
-| | [IKEA Trofast Storage Box](trofast-storage-box/) | Half-height and short storage boxes for IKEA Trofast frames |
-| | [XYZ Block](xyz-block/) | Calibration and reference block |
+| <img src="packout-inserts/images/wide-bin-corner-ul-lr.png" width="130"> | [**Packout Inserts**](packout-inserts/) | Inserts that subdivide the bins of a Milwaukee Packout tray organizer |
+| <img src="trofast-lego-bins/images/lego-tray-corner-left.png" width="130"> | [**IKEA — LEGO Bins**](trofast-lego-bins/) | Bins and dividers to organize LEGO in IKEA Trofast storage boxes |
+| <img src="alpha-blocks/images/alpha-blocks.png" width="130"> | [**Alpha Blocks**](alpha-blocks/) | A set of 1 inch alphabet letter blocks |
+| <img src="xyz-block/images/xyz-block.png" width="130"> | [**XYZ Block**](xyz-block/) | A visual reference guide, and a handy 1 inch calibration block |
+| <img src="trofast-storage-box/images/trofast-short-bin.png" width="130"> | [**Trofast Storage Box**](trofast-storage-box/) | Reference models of IKEA's Trofast storage boxes, for designing things that fit them |
 
 ## Layout
 
@@ -43,4 +43,6 @@ STL files must be under 10 MB for the viewer to work, so meshes here are exporte
 | **STEP** | Neutral solid, no history | Editing in any CAD package |
 | **F3D** | Fusion archive with full feature history | Editing parametrically in Fusion |
 
-> Projects other than Packout Inserts predate this layout and are still being migrated.
+All meshes are **watertight** and exported in **millimetres**.
+
+> Some STL files published before July 2026 were exported in inches and imported 25.4× undersized in slicers that assume millimetres. Every file currently in this repo has been re-exported in millimetres and verified.
