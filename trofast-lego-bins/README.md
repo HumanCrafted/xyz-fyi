@@ -27,8 +27,6 @@ All meshes are watertight and in millimetres.
 | Middle tray | ~41 cm³ |
 | Divider (×2) | ~4.4 cm³ each |
 
-> **Note:** the previous STL files in this folder were exported in **inches**, so they imported 25.4× undersized in any slicer that assumes millimetres. These replacements are in millimetres and are correct. If you printed from the old files and got something tiny, that's why.
-
 ## Source files
 
 - **F3D** — the Fusion models with full feature history

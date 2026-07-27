@@ -19,11 +19,11 @@ The organizer is 12 × 8 × 1.8 in (305 × 203 × 46 mm) and holds five removabl
 
 Three of the parts tile the wide centre bin together:
 
-- **2 ×  Wide Bin Center** fill the middle, the second rotated 180° — which is why that part is symmetric front to back
+- **2 ×  Wide Bin Center** fill the middle, the second rotated 180°
 - **Wide Bin Corner (UL-LR)** takes the upper-left and lower-right corners, the same part rotated 180°
 - **Wide Bin Corner (UR-LL)** is its mirror, covering upper-right and lower-left
 
-**Standard Bin Corner** is for the four 4 × 4 in bins and fits any corner — rotate it so the large chamfer faces the middle of the bin.
+**Standard Bin Corner** is for the four 4 × 4 in bins and fits any corner — rotate it so the large chamfer faces the corners of the bin.
 
 ## Printing
 
@@ -36,7 +36,7 @@ All four meshes are watertight, with no non-manifold edges.
 
 ## Source files
 
-- **F3D** — the full parametric Fusion model with its complete feature history. Every dimension is driven by named user parameters (`insert_h`, `base_w`, `depth`, `wall`, `scoop_rise`, `scoop_run`, `draft_ang`, plus the chamfer and fillet radii), so the part can be resized by editing parameters rather than remodelling. There are no move-face or direct-edit features anywhere in the tree.
+- **F3D** — the full parametric Fusion model with its complete feature history. Every dimension is driven by named user parameters (`insert_h`, `base_w`, `depth`, `wall`, `scoop_rise`, `scoop_run`, `draft_ang`, plus the chamfer and fillet radii), so the part can be resized by editing parameters rather than remodelling.
 - **STEP** — neutral solid geometry for any other CAD package. No history.
 
 Released under [CC0 1.0](../License.txt) — public domain, no attribution required.
