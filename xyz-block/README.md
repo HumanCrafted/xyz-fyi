@@ -23,7 +23,7 @@ Each of the three axes reads as its own letter — X, Y and Z — cut through a 
 
 <img src="renders/xyz-block.png" width="360">
 
-Rendered from the sliced g-code rather than the model, so every bead and layer line is what the printer lays down. `renders/xyz-block.blend` is the Blender scene; `print/xyz-block.bgcode` is the PrusaSlicer file it was built from (Mini+, 0.4 mm nozzle, 0.2 mm layers).
+Rendered from the sliced g-code rather than the model, so every bead and layer line is what the printer lays down. `renders/xyz-block.blend` is the styled scene and `renders/xyz-block-swatch.blend` the colour-true swatch scene (neutral light, transparent background) behind `renders/xyz-block-swatch.png`; `print/xyz-block.bgcode` is the PrusaSlicer file both were built from (Mini+, 0.4 mm nozzle, 0.2 mm layers).
 
 ## Source files
 
