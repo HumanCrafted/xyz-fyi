@@ -4,3 +4,7 @@
 .claude/settings.local.json
 
 .obsidian/
+
+# Blender backup files
+*.blend1
+*.blend2

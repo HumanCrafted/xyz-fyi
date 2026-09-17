@@ -19,6 +19,12 @@ Each of the three axes reads as its own letter — X, Y and Z — cut through a 
 
 **This version contains a fully sealed internal cavity** — I use this space to insert an NFC tag.  To use, add a pause in the print at a layer before the roof closes over. If you just want a solid block, the cavity is small enough to ignore.
 
+## Render
+
+<img src="renders/xyz-block.png" width="360">
+
+Rendered from the sliced g-code rather than the model, so every bead and layer line is what the printer lays down. `renders/xyz-block.blend` is the Blender scene; `print/xyz-block.bgcode` is the PrusaSlicer file it was built from (Mini+, 0.4 mm nozzle, 0.2 mm layers).
+
 ## Source files
 
 - **F3D** — the Fusion model with full feature history
